@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "0.1",
+  "caseId": "autumn-walk-ai-demo-v1",
+  "provenance": {
+    "kind": "cached-ai-analysis",
+    "runId": "scene-analysis-20260926-01",
+    "service": "Codex host-native visual understanding",
+    "model": "not-exposed-by-host",
+    "generatedAt": "2026-09-26",
+    "isRealtime": false,
+    "inputSynthetic": true
+  },
+  "analysis": {
+    "facts": [
+      {
+        "category": "time-light",
+        "value": "傍晚暖色光线",
+        "confidence": "high",
+        "evidencePhotoIds": ["path", "leaves", "walk", "sky"]
+      },
+      {
+        "category": "place-type",
+        "value": "树木环绕的铺装步道",
+        "confidence": "high",
+        "evidencePhotoIds": ["path", "walk"]
+      },
+      {
+        "category": "activity",
+        "value": "一人沿步道行走",
+        "confidence": "medium",
+        "evidencePhotoIds": ["walk"]
+      },
+      {
+        "category": "object",
+        "value": "地面有大量落叶",
+        "confidence": "high",
+        "evidencePhotoIds": ["path", "leaves", "walk"]
+      },
+      {
+        "category": "people-count",
+        "value": "一人",
+        "confidence": "high",
+        "evidencePhotoIds": ["walk"]
+      }
+    ],
+    "excludedPhotos": [],
+    "warnings": [
+      "人物只在 walk 照片中可见，无法判断画面外是否有同行者。"
+    ]
+  }
+}
